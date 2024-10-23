@@ -57,7 +57,7 @@ root.title("Uygulama Yükleyicisi")
 root.geometry("400x400")
 root.configure(bg="black")  
 
-title_label = tk.Label(root, text="Uygulama Yükleyici", font=("Arial", 16, "bold"), bg="black", fg="white")
+title_label = tk.Label(root, text="Uygulama Yükleyicisi", font=("Arial", 16, "bold"), bg="black", fg="white")
 title_label.pack(pady=10)
 
 app_var = tk.StringVar(value="Discord")  
